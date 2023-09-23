@@ -1,0 +1,1204 @@
+{
+    "ondc": {
+        "domain": "ONDC:RET11",
+        "country": "IND",
+        "city": "std:080",
+        "action": "on_search",
+        "core_version": "1.2.0",
+        "bap_id": "buyerNP.com",
+        "bap_uri": "https://buyerNP.com/ondc",
+        "transaction_id": "T1",
+        "message_id": "M1",
+        "timestamp": "2023-06-03T08:00:30+00:00",
+        "bpp_id": "sellerNP.com",
+        "bpp_uri": "https://sellerNP.com/ondc"
+    },
+    "items": [
+        {
+            "ondc_id": "I1",
+            "name": "Veg & Non-Veg Pizza (Combo)",
+            "logo": "https://sellerNP.com/images/i1.png",
+            "short_descritpion": "Veg & Non-Veg Pizza (Combo)",
+            "long_description": "Veg & Non-Veg Pizza (Combo)",
+            "thumbnails": [
+                "https://sellerNP.com/images/i1.png"
+            ],
+            "is_item_enabled": true,
+            "ondc_last_updated_at": "2023-06-03T07:30:00Z",
+            "price_currency": "INR",
+            "price": "40000",
+            "max_price": "40000",
+            "price_lower_bound": null,
+            "price_upper_bound": null,
+            "is_related_to_customer": false,
+            "is_recommended_to_customer": true,
+            "is_item_returnable": false,
+            "is_item_cancellable": false,
+            "will_seller_pickup_return": false,
+            "is_available_on_cod": false,
+            "item_return_window": "PT1H",
+            "time_taken_to_ship_item": "PT45M",
+            "measure_unit": "unit",
+            "measure_value": "1",
+            "maximum_available_from_provider": null,
+            "maximum_items_per_order": null,
+            "availability": {
+                "time_available": [
+                    {
+                        "time_from": "1800",
+                        "time_to": "2200"
+                    }
+                ],
+                "days_available": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "primary_tag": "veg",
+            "supported_fulfillment_type": "Delivery",
+            "submenu": null,
+            "submenu_category": null,
+            "tag_slugs": [],
+            "tags": [],
+            "avg_rating": null,
+            "review_count": null,
+            "cuisines": [],
+            "dishes": [],
+            "customization_categories": [
+                {
+                    "ondc_id": "CG1",
+                    "name": "Choice of Crust (any 1 option)",
+                    "short_description": null,
+                    "long_description": null,
+                    "thumbnails": [],
+                    "category_type": "custom_group",
+                    "availability": {
+                        "time_available": [
+                            {
+                                "time_from": null,
+                                "time_to": null
+                            }
+                        ],
+                        "days_available": []
+                    },
+                    "category_min_value": "1",
+                    "category_max_value": "1",
+                    "is_text_engraving_available": true,
+                    "customizations": [
+                        {
+                            "ondc_id": "C1",
+                            "name": "Pan Tossed",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "0",
+                            "max_price": "0",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": "unit",
+                            "measure_value": "1",
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": true,
+                            "customization_categories": [
+                                {
+                                    "ondc_id": "CG2",
+                                    "name": "First Veg Half (any 1 option)",
+                                    "short_description": null,
+                                    "long_description": null,
+                                    "thumbnails": [],
+                                    "category_type": "custom_group",
+                                    "availability": {
+                                        "time_available": [
+                                            {
+                                                "time_from": null,
+                                                "time_to": null
+                                            }
+                                        ],
+                                        "days_available": []
+                                    },
+                                    "category_min_value": "1",
+                                    "category_max_value": "1",
+                                    "is_text_engraving_available": true,
+                                    "customizations": [
+                                        {
+                                            "ondc_id": "C4",
+                                            "name": "Double Cheese Margherita",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "0",
+                                            "max_price": "0",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": null,
+                                            "measure_value": null,
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": true,
+                                            "customization_categories": []
+                                        },
+                                        {
+                                            "ondc_id": "C5",
+                                            "name": "Paneer Tikka",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "5000",
+                                            "max_price": "5000",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": null,
+                                            "measure_value": null,
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        },
+                                        {
+                                            "ondc_id": "C6",
+                                            "name": "Farmer\u00e2\u20ac\u2122s Market",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "0",
+                                            "max_price": "0",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": null,
+                                            "measure_value": null,
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        },
+                                        {
+                                            "ondc_id": "C7",
+                                            "name": "Spicy Mexicano",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "5000",
+                                            "max_price": "5000",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": null,
+                                            "measure_value": null,
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "ondc_id": "C2",
+                            "name": "Cheese Blast",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "9900",
+                            "max_price": "9900",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": null,
+                            "measure_value": null,
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": false,
+                            "customization_categories": [
+                                {
+                                    "ondc_id": "CG2",
+                                    "name": "First Veg Half (any 1 option)",
+                                    "short_description": null,
+                                    "long_description": null,
+                                    "thumbnails": [],
+                                    "category_type": "custom_group",
+                                    "availability": {
+                                        "time_available": [
+                                            {
+                                                "time_from": null,
+                                                "time_to": null
+                                            }
+                                        ],
+                                        "days_available": []
+                                    },
+                                    "category_min_value": "1",
+                                    "category_max_value": "1",
+                                    "is_text_engraving_available": true,
+                                    "customizations": [
+                                        {
+                                            "ondc_id": "C4",
+                                            "name": "Double Cheese Margherita",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "0",
+                                            "max_price": "0",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": null,
+                                            "measure_value": null,
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": true,
+                                            "customization_categories": []
+                                        },
+                                        {
+                                            "ondc_id": "C5",
+                                            "name": "Paneer Tikka",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "5000",
+                                            "max_price": "5000",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": null,
+                                            "measure_value": null,
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        },
+                                        {
+                                            "ondc_id": "C6",
+                                            "name": "Farmer\u00e2\u20ac\u2122s Market",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "0",
+                                            "max_price": "0",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": null,
+                                            "measure_value": null,
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        },
+                                        {
+                                            "ondc_id": "C7",
+                                            "name": "Spicy Mexicano",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "5000",
+                                            "max_price": "5000",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": null,
+                                            "measure_value": null,
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "ondc_id": "C3",
+                            "name": "Chicken Cheese Blast",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "12900",
+                            "max_price": "12900",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": null,
+                            "measure_value": null,
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "non-veg",
+                            "is_default": false,
+                            "customization_categories": [
+                                {
+                                    "ondc_id": "CG2",
+                                    "name": "First Veg Half (any 1 option)",
+                                    "short_description": null,
+                                    "long_description": null,
+                                    "thumbnails": [],
+                                    "category_type": "custom_group",
+                                    "availability": {
+                                        "time_available": [
+                                            {
+                                                "time_from": null,
+                                                "time_to": null
+                                            }
+                                        ],
+                                        "days_available": []
+                                    },
+                                    "category_min_value": "1",
+                                    "category_max_value": "1",
+                                    "is_text_engraving_available": true,
+                                    "customizations": [
+                                        {
+                                            "ondc_id": "C4",
+                                            "name": "Double Cheese Margherita",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "0",
+                                            "max_price": "0",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": null,
+                                            "measure_value": null,
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": true,
+                                            "customization_categories": []
+                                        },
+                                        {
+                                            "ondc_id": "C5",
+                                            "name": "Paneer Tikka",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "5000",
+                                            "max_price": "5000",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": null,
+                                            "measure_value": null,
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        },
+                                        {
+                                            "ondc_id": "C6",
+                                            "name": "Farmer\u00e2\u20ac\u2122s Market",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "0",
+                                            "max_price": "0",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": null,
+                                            "measure_value": null,
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        },
+                                        {
+                                            "ondc_id": "C7",
+                                            "name": "Spicy Mexicano",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "5000",
+                                            "max_price": "5000",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": null,
+                                            "measure_value": null,
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ondc_id": "CG2",
+                    "name": "First Veg Half (any 1 option)",
+                    "short_description": null,
+                    "long_description": null,
+                    "thumbnails": [],
+                    "category_type": "custom_group",
+                    "availability": {
+                        "time_available": [
+                            {
+                                "time_from": null,
+                                "time_to": null
+                            }
+                        ],
+                        "days_available": []
+                    },
+                    "category_min_value": "1",
+                    "category_max_value": "1",
+                    "is_text_engraving_available": true,
+                    "customizations": [
+                        {
+                            "ondc_id": "C4",
+                            "name": "Double Cheese Margherita",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "0",
+                            "max_price": "0",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": null,
+                            "measure_value": null,
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": true,
+                            "customization_categories": []
+                        },
+                        {
+                            "ondc_id": "C5",
+                            "name": "Paneer Tikka",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "5000",
+                            "max_price": "5000",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": null,
+                            "measure_value": null,
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": false,
+                            "customization_categories": []
+                        },
+                        {
+                            "ondc_id": "C6",
+                            "name": "Farmer\u00e2\u20ac\u2122s Market",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "0",
+                            "max_price": "0",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": null,
+                            "measure_value": null,
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": false,
+                            "customization_categories": []
+                        },
+                        {
+                            "ondc_id": "C7",
+                            "name": "Spicy Mexicano",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "5000",
+                            "max_price": "5000",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": null,
+                            "measure_value": null,
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": false,
+                            "customization_categories": []
+                        }
+                    ]
+                },
+                {
+                    "ondc_id": "CG3",
+                    "name": "Second Non-Veg Half (any 1 option)",
+                    "short_description": null,
+                    "long_description": null,
+                    "thumbnails": [],
+                    "category_type": "custom_group",
+                    "availability": {
+                        "time_available": [
+                            {
+                                "time_from": null,
+                                "time_to": null
+                            }
+                        ],
+                        "days_available": []
+                    },
+                    "category_min_value": "1",
+                    "category_max_value": "1",
+                    "is_text_engraving_available": true,
+                    "customizations": [
+                        {
+                            "ondc_id": "C8",
+                            "name": "Chicken Smokey Joe",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "0",
+                            "max_price": "0",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": null,
+                            "measure_value": null,
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "non-veg",
+                            "is_default": true,
+                            "customization_categories": []
+                        },
+                        {
+                            "ondc_id": "C9",
+                            "name": "Peri Peri Chicken",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "4000",
+                            "max_price": "4000",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": null,
+                            "measure_value": null,
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "non-veg",
+                            "is_default": false,
+                            "customization_categories": []
+                        },
+                        {
+                            "ondc_id": "C10",
+                            "name": "BBQ Chicken",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "4000",
+                            "max_price": "4000",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": null,
+                            "measure_value": null,
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "non-veg",
+                            "is_default": false,
+                            "customization_categories": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "restaurant": {
+        "provider_id": "P1",
+        "is_provider_enabled": true,
+        "dining_review": null,
+        "dining_review_count": null,
+        "delivery_avg_rating": null,
+        "delivery_review_count": null,
+        "ondc_last_updated_at": "2023-06-03T08:00:30Z",
+        "name": "Store 1",
+        "logo": "https://sellerNP.com/images/store1.png",
+        "short_description": "Store 1",
+        "long_description": "Store 1",
+        "cost_for_one": null,
+        "cuisines": [],
+        "thumbnails": [
+            "https://sellerNP.com/images/store1.png"
+        ],
+        "fssai_license": "12345678901234",
+        "ttl": "P1D",
+        "minimum_order_value": "30000",
+        "consumer_care_name": "Ramesh",
+        "consumer_care_email": "ramesh@abc.com",
+        "consumer_care_phone_no": "18004254444",
+        "catalog_link_last_updated_at": null,
+        "catalog_link": null,
+        "catalog_link_validity": null,
+        "fulfillments": [
+            {
+                "fulfillment_type": "Delivery",
+                "contact_phone": [
+                    "9886098860"
+                ],
+                "contact_email": "abc@xyz.com"
+            },
+            {
+                "fulfillment_type": "Self-Pickup",
+                "contact_phone": [
+                    "9886098860"
+                ],
+                "contact_email": "abc@xyz.com"
+            }
+        ],
+        "location_id": "L1",
+        "is_location_enabled": true,
+        "location_last_updated_at": "2023-06-03T07:30:30.000000Z",
+        "address": "Jayanagar 4th Block,Jayanagar,Bengaluru,KA,560076",
+        "locality": "Jayanagar",
+        "sub_locality": null,
+        "holidays": [
+            "2023-8-15"
+        ],
+        "latitude": "12.967555",
+        "longitude": "77.749666",
+        "delivery_radius_unit": "km",
+        "delivery_radius": "3",
+        "availability": {
+            "availability_for_location": [
+                {
+                    "location_start_time": {
+                        "location_start_time": "1100",
+                        "location_end_time": "2100"
+                    }
+                }
+            ],
+            "availability_for_order": [
+                {
+                    "time_available": [
+                        {
+                            "time_from": "1000",
+                            "time_to": "2200"
+                        }
+                    ],
+                    "days_available": [
+                        [
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7
+                        ]
+                    ]
+                }
+            ],
+            "availability_for_self_pickup": [
+                {
+                    "time_available": [
+                        {
+                            "time_from": "1000",
+                            "time_to": "2200"
+                        }
+                    ],
+                    "days_available": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ]
+                }
+            ],
+            "availability_for_delivery": [
+                {
+                    "time_available": [
+                        {
+                            "time_from": "1000",
+                            "time_to": "2200"
+                        }
+                    ],
+                    "days_available": [
+                        [
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7
+                        ]
+                    ]
+                }
+            ],
+            "days_available": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ]
+        }
+    },
+    "offers": []
+}

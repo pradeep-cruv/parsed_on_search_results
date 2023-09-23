@@ -1,0 +1,3140 @@
+{
+    "ondc": {
+        "domain": "ONDC:RET11",
+        "country": "IND",
+        "city": "std:080",
+        "action": "on_search",
+        "core_version": "1.2.0",
+        "bap_id": "buyer-app.ondc.org",
+        "bap_uri": "https://webhook.site/b8c0ef18-f162-417b-95bf-3d62352f271b",
+        "transaction_id": "211d869-1505-4d14-b801-aee9bb5895d12",
+        "message_id": "89e1d869-1505-4d14-b801-aee9bb5895d11",
+        "timestamp": "2023-09-06T06:39:53.644000+00:00",
+        "bpp_id": "ref-app-seller-dev-internal.ondc.org",
+        "bpp_uri": "https://ref-app-seller-dev-internal.ondc.org"
+    },
+    "items": [
+        {
+            "ondc_id": "4970a3f0-4d53-4c61-8303-76f16cab156a",
+            "name": "Farmhouse Pizza",
+            "logo": "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/d76961cb-c2ef-4951-88c4-202844c92157/product_image/png-transparent-sicilian-pizza-california-style-pizza-pizza-cheese-restaurant-pizza-food-recipe-pizza-delivery-thumbnail.png",
+            "short_descritpion": "Pizza with veggies ",
+            "long_description": "Pizza with lot of different veggies ",
+            "thumbnails": [
+                "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/d76961cb-c2ef-4951-88c4-202844c92157/product_image/png-transparent-sicilian-pizza-california-style-pizza-pizza-cheese-restaurant-pizza-food-recipe-pizza-delivery-thumbnail.png",
+                "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/7439d81b-c1aa-41d0-8447-8067ecbb0e77/product_image/download (1).jpeg",
+                "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/0c4162e1-a908-4ff8-8e0d-a0cdb02f872c/product_image/download.jpeg",
+                "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/a12c43fc-e5f0-4b7f-b47e-13973b4cf9da/product_image/images.jpeg"
+            ],
+            "is_item_enabled": true,
+            "ondc_last_updated_at": "2023-08-28T17:32:08Z",
+            "price_currency": "INR",
+            "price": "26900",
+            "max_price": "26900",
+            "price_lower_bound": null,
+            "price_upper_bound": null,
+            "is_related_to_customer": false,
+            "is_recommended_to_customer": false,
+            "is_item_returnable": false,
+            "is_item_cancellable": false,
+            "will_seller_pickup_return": true,
+            "is_available_on_cod": true,
+            "item_return_window": "P0D",
+            "time_taken_to_ship_item": "PT1H",
+            "measure_unit": "unit",
+            "measure_value": "1",
+            "maximum_available_from_provider": null,
+            "maximum_items_per_order": null,
+            "availability": {
+                "time_available": [
+                    {
+                        "time_from": null,
+                        "time_to": null
+                    }
+                ],
+                "days_available": []
+            },
+            "primary_tag": "veg",
+            "supported_fulfillment_type": null,
+            "submenu": null,
+            "submenu_category": null,
+            "tag_slugs": [],
+            "tags": [],
+            "avg_rating": null,
+            "review_count": null,
+            "cuisines": [],
+            "dishes": [],
+            "customization_categories": [
+                {
+                    "ondc_id": "SIYj1K",
+                    "name": "Crust (any 1 option) *",
+                    "short_description": null,
+                    "long_description": null,
+                    "thumbnails": [],
+                    "category_type": "custom_group",
+                    "availability": {
+                        "time_available": [
+                            {
+                                "time_from": null,
+                                "time_to": null
+                            }
+                        ],
+                        "days_available": []
+                    },
+                    "category_min_value": "1",
+                    "category_max_value": "1",
+                    "is_text_engraving_available": true,
+                    "customizations": [
+                        {
+                            "ondc_id": "N0YRfr",
+                            "name": "New Hand Tossed",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "0",
+                            "max_price": "0",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": "unit",
+                            "measure_value": "1",
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": false,
+                            "customization_categories": [
+                                {
+                                    "ondc_id": "nFzYz2",
+                                    "name": "Size (any 1 option) *",
+                                    "short_description": null,
+                                    "long_description": null,
+                                    "thumbnails": [],
+                                    "category_type": "custom_group",
+                                    "availability": {
+                                        "time_available": [
+                                            {
+                                                "time_from": null,
+                                                "time_to": null
+                                            }
+                                        ],
+                                        "days_available": []
+                                    },
+                                    "category_min_value": "1",
+                                    "category_max_value": "1",
+                                    "is_text_engraving_available": true,
+                                    "customizations": [
+                                        {
+                                            "ondc_id": "FT6Akm",
+                                            "name": "Regular",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "0",
+                                            "max_price": "0",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "1",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": [
+                                                {
+                                                    "ondc_id": "JapEnK",
+                                                    "name": "Toppings (up to 2 options)",
+                                                    "short_description": null,
+                                                    "long_description": null,
+                                                    "thumbnails": [],
+                                                    "category_type": "custom_group",
+                                                    "availability": {
+                                                        "time_available": [
+                                                            {
+                                                                "time_from": null,
+                                                                "time_to": null
+                                                            }
+                                                        ],
+                                                        "days_available": []
+                                                    },
+                                                    "category_min_value": "0",
+                                                    "category_max_value": "2",
+                                                    "is_text_engraving_available": true,
+                                                    "customizations": [
+                                                        {
+                                                            "ondc_id": "jftbxQ",
+                                                            "name": "Grilled Mushrooms",
+                                                            "logo": null,
+                                                            "short_descritpion": null,
+                                                            "long_description": null,
+                                                            "thumbnails": [],
+                                                            "is_item_enabled": false,
+                                                            "ondc_last_updated_at": null,
+                                                            "price_currency": "INR",
+                                                            "price": "3500",
+                                                            "max_price": "3500",
+                                                            "price_lower_bound": null,
+                                                            "price_upper_bound": null,
+                                                            "is_related_to_customer": true,
+                                                            "is_recommended_to_customer": false,
+                                                            "is_item_returnable": false,
+                                                            "is_item_cancellable": false,
+                                                            "will_seller_pickup_return": false,
+                                                            "is_available_on_cod": false,
+                                                            "item_return_window": null,
+                                                            "time_taken_to_ship_item": null,
+                                                            "measure_unit": "unit",
+                                                            "measure_value": "1",
+                                                            "maximum_available_from_provider": null,
+                                                            "maximum_items_per_order": null,
+                                                            "availability": {
+                                                                "time_available": [
+                                                                    {
+                                                                        "time_from": null,
+                                                                        "time_to": null
+                                                                    }
+                                                                ],
+                                                                "days_available": []
+                                                            },
+                                                            "primary_tag": "veg",
+                                                            "is_default": false,
+                                                            "customization_categories": []
+                                                        },
+                                                        {
+                                                            "ondc_id": "nIf12u",
+                                                            "name": "Fresh Tomato",
+                                                            "logo": null,
+                                                            "short_descritpion": null,
+                                                            "long_description": null,
+                                                            "thumbnails": [],
+                                                            "is_item_enabled": false,
+                                                            "ondc_last_updated_at": null,
+                                                            "price_currency": "INR",
+                                                            "price": "3500",
+                                                            "max_price": "3500",
+                                                            "price_lower_bound": null,
+                                                            "price_upper_bound": null,
+                                                            "is_related_to_customer": true,
+                                                            "is_recommended_to_customer": false,
+                                                            "is_item_returnable": false,
+                                                            "is_item_cancellable": false,
+                                                            "will_seller_pickup_return": false,
+                                                            "is_available_on_cod": false,
+                                                            "item_return_window": null,
+                                                            "time_taken_to_ship_item": null,
+                                                            "measure_unit": "unit",
+                                                            "measure_value": "1",
+                                                            "maximum_available_from_provider": null,
+                                                            "maximum_items_per_order": null,
+                                                            "availability": {
+                                                                "time_available": [
+                                                                    {
+                                                                        "time_from": null,
+                                                                        "time_to": null
+                                                                    }
+                                                                ],
+                                                                "days_available": []
+                                                            },
+                                                            "primary_tag": "veg",
+                                                            "is_default": false,
+                                                            "customization_categories": []
+                                                        },
+                                                        {
+                                                            "ondc_id": "QZL2xM",
+                                                            "name": "Pepper Barbeque Chicken",
+                                                            "logo": null,
+                                                            "short_descritpion": null,
+                                                            "long_description": null,
+                                                            "thumbnails": [],
+                                                            "is_item_enabled": false,
+                                                            "ondc_last_updated_at": null,
+                                                            "price_currency": "INR",
+                                                            "price": "5000",
+                                                            "max_price": "5000",
+                                                            "price_lower_bound": null,
+                                                            "price_upper_bound": null,
+                                                            "is_related_to_customer": true,
+                                                            "is_recommended_to_customer": false,
+                                                            "is_item_returnable": false,
+                                                            "is_item_cancellable": false,
+                                                            "will_seller_pickup_return": false,
+                                                            "is_available_on_cod": false,
+                                                            "item_return_window": null,
+                                                            "time_taken_to_ship_item": null,
+                                                            "measure_unit": "unit",
+                                                            "measure_value": "5",
+                                                            "maximum_available_from_provider": null,
+                                                            "maximum_items_per_order": null,
+                                                            "availability": {
+                                                                "time_available": [
+                                                                    {
+                                                                        "time_from": null,
+                                                                        "time_to": null
+                                                                    }
+                                                                ],
+                                                                "days_available": []
+                                                            },
+                                                            "primary_tag": "non-veg",
+                                                            "is_default": false,
+                                                            "customization_categories": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "ondc_id": "dFYwtC",
+                                            "name": "Large",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "45000",
+                                            "max_price": "45000",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "1",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": [
+                                                {
+                                                    "ondc_id": "08fZrV",
+                                                    "name": "Toppings (up to 2 options)",
+                                                    "short_description": null,
+                                                    "long_description": null,
+                                                    "thumbnails": [],
+                                                    "category_type": "custom_group",
+                                                    "availability": {
+                                                        "time_available": [
+                                                            {
+                                                                "time_from": null,
+                                                                "time_to": null
+                                                            }
+                                                        ],
+                                                        "days_available": []
+                                                    },
+                                                    "category_min_value": "0",
+                                                    "category_max_value": "2",
+                                                    "is_text_engraving_available": true,
+                                                    "customizations": [
+                                                        {
+                                                            "ondc_id": "HF7WtR",
+                                                            "name": "Grilled Mushrooms ",
+                                                            "logo": null,
+                                                            "short_descritpion": null,
+                                                            "long_description": null,
+                                                            "thumbnails": [],
+                                                            "is_item_enabled": false,
+                                                            "ondc_last_updated_at": null,
+                                                            "price_currency": "INR",
+                                                            "price": "8000",
+                                                            "max_price": "8000",
+                                                            "price_lower_bound": null,
+                                                            "price_upper_bound": null,
+                                                            "is_related_to_customer": true,
+                                                            "is_recommended_to_customer": false,
+                                                            "is_item_returnable": false,
+                                                            "is_item_cancellable": false,
+                                                            "will_seller_pickup_return": false,
+                                                            "is_available_on_cod": false,
+                                                            "item_return_window": null,
+                                                            "time_taken_to_ship_item": null,
+                                                            "measure_unit": "unit",
+                                                            "measure_value": "5",
+                                                            "maximum_available_from_provider": null,
+                                                            "maximum_items_per_order": null,
+                                                            "availability": {
+                                                                "time_available": [
+                                                                    {
+                                                                        "time_from": null,
+                                                                        "time_to": null
+                                                                    }
+                                                                ],
+                                                                "days_available": []
+                                                            },
+                                                            "primary_tag": "veg",
+                                                            "is_default": false,
+                                                            "customization_categories": []
+                                                        },
+                                                        {
+                                                            "ondc_id": "eocHyx",
+                                                            "name": "Fresh Tomato",
+                                                            "logo": null,
+                                                            "short_descritpion": null,
+                                                            "long_description": null,
+                                                            "thumbnails": [],
+                                                            "is_item_enabled": false,
+                                                            "ondc_last_updated_at": null,
+                                                            "price_currency": "INR",
+                                                            "price": "8000",
+                                                            "max_price": "8000",
+                                                            "price_lower_bound": null,
+                                                            "price_upper_bound": null,
+                                                            "is_related_to_customer": true,
+                                                            "is_recommended_to_customer": false,
+                                                            "is_item_returnable": false,
+                                                            "is_item_cancellable": false,
+                                                            "will_seller_pickup_return": false,
+                                                            "is_available_on_cod": false,
+                                                            "item_return_window": null,
+                                                            "time_taken_to_ship_item": null,
+                                                            "measure_unit": "unit",
+                                                            "measure_value": "10",
+                                                            "maximum_available_from_provider": null,
+                                                            "maximum_items_per_order": null,
+                                                            "availability": {
+                                                                "time_available": [
+                                                                    {
+                                                                        "time_from": null,
+                                                                        "time_to": null
+                                                                    }
+                                                                ],
+                                                                "days_available": []
+                                                            },
+                                                            "primary_tag": "veg",
+                                                            "is_default": false,
+                                                            "customization_categories": []
+                                                        },
+                                                        {
+                                                            "ondc_id": "94EFWd",
+                                                            "name": "Pepper Barbeque Chicken",
+                                                            "logo": null,
+                                                            "short_descritpion": null,
+                                                            "long_description": null,
+                                                            "thumbnails": [],
+                                                            "is_item_enabled": false,
+                                                            "ondc_last_updated_at": null,
+                                                            "price_currency": "INR",
+                                                            "price": "9500",
+                                                            "max_price": "9500",
+                                                            "price_lower_bound": null,
+                                                            "price_upper_bound": null,
+                                                            "is_related_to_customer": true,
+                                                            "is_recommended_to_customer": false,
+                                                            "is_item_returnable": false,
+                                                            "is_item_cancellable": false,
+                                                            "will_seller_pickup_return": false,
+                                                            "is_available_on_cod": false,
+                                                            "item_return_window": null,
+                                                            "time_taken_to_ship_item": null,
+                                                            "measure_unit": "unit",
+                                                            "measure_value": "10",
+                                                            "maximum_available_from_provider": null,
+                                                            "maximum_items_per_order": null,
+                                                            "availability": {
+                                                                "time_available": [
+                                                                    {
+                                                                        "time_from": null,
+                                                                        "time_to": null
+                                                                    }
+                                                                ],
+                                                                "days_available": []
+                                                            },
+                                                            "primary_tag": "non-veg",
+                                                            "is_default": false,
+                                                            "customization_categories": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "ondc_id": "1kSdPM",
+                                            "name": "Medium",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "21000",
+                                            "max_price": "21000",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "1",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": [
+                                                {
+                                                    "ondc_id": "DwBFvp",
+                                                    "name": "Toppings (up to 2 options)",
+                                                    "short_description": null,
+                                                    "long_description": null,
+                                                    "thumbnails": [],
+                                                    "category_type": "custom_group",
+                                                    "availability": {
+                                                        "time_available": [
+                                                            {
+                                                                "time_from": null,
+                                                                "time_to": null
+                                                            }
+                                                        ],
+                                                        "days_available": []
+                                                    },
+                                                    "category_min_value": "0",
+                                                    "category_max_value": "2",
+                                                    "is_text_engraving_available": true,
+                                                    "customizations": [
+                                                        {
+                                                            "ondc_id": "tEHQsR",
+                                                            "name": "Grilled Mushrooms",
+                                                            "logo": null,
+                                                            "short_descritpion": null,
+                                                            "long_description": null,
+                                                            "thumbnails": [],
+                                                            "is_item_enabled": false,
+                                                            "ondc_last_updated_at": null,
+                                                            "price_currency": "INR",
+                                                            "price": "6000",
+                                                            "max_price": "6000",
+                                                            "price_lower_bound": null,
+                                                            "price_upper_bound": null,
+                                                            "is_related_to_customer": true,
+                                                            "is_recommended_to_customer": false,
+                                                            "is_item_returnable": false,
+                                                            "is_item_cancellable": false,
+                                                            "will_seller_pickup_return": false,
+                                                            "is_available_on_cod": false,
+                                                            "item_return_window": null,
+                                                            "time_taken_to_ship_item": null,
+                                                            "measure_unit": "unit",
+                                                            "measure_value": "6",
+                                                            "maximum_available_from_provider": null,
+                                                            "maximum_items_per_order": null,
+                                                            "availability": {
+                                                                "time_available": [
+                                                                    {
+                                                                        "time_from": null,
+                                                                        "time_to": null
+                                                                    }
+                                                                ],
+                                                                "days_available": []
+                                                            },
+                                                            "primary_tag": "veg",
+                                                            "is_default": false,
+                                                            "customization_categories": []
+                                                        },
+                                                        {
+                                                            "ondc_id": "lmtfOa",
+                                                            "name": "Fresh Tomato",
+                                                            "logo": null,
+                                                            "short_descritpion": null,
+                                                            "long_description": null,
+                                                            "thumbnails": [],
+                                                            "is_item_enabled": false,
+                                                            "ondc_last_updated_at": null,
+                                                            "price_currency": "INR",
+                                                            "price": "6000",
+                                                            "max_price": "6000",
+                                                            "price_lower_bound": null,
+                                                            "price_upper_bound": null,
+                                                            "is_related_to_customer": true,
+                                                            "is_recommended_to_customer": false,
+                                                            "is_item_returnable": false,
+                                                            "is_item_cancellable": false,
+                                                            "will_seller_pickup_return": false,
+                                                            "is_available_on_cod": false,
+                                                            "item_return_window": null,
+                                                            "time_taken_to_ship_item": null,
+                                                            "measure_unit": "unit",
+                                                            "measure_value": "1",
+                                                            "maximum_available_from_provider": null,
+                                                            "maximum_items_per_order": null,
+                                                            "availability": {
+                                                                "time_available": [
+                                                                    {
+                                                                        "time_from": null,
+                                                                        "time_to": null
+                                                                    }
+                                                                ],
+                                                                "days_available": []
+                                                            },
+                                                            "primary_tag": "veg",
+                                                            "is_default": false,
+                                                            "customization_categories": []
+                                                        },
+                                                        {
+                                                            "ondc_id": "W6eEkh",
+                                                            "name": "Pepper Barbeque Chicken",
+                                                            "logo": null,
+                                                            "short_descritpion": null,
+                                                            "long_description": null,
+                                                            "thumbnails": [],
+                                                            "is_item_enabled": false,
+                                                            "ondc_last_updated_at": null,
+                                                            "price_currency": "INR",
+                                                            "price": "7500",
+                                                            "max_price": "7500",
+                                                            "price_lower_bound": null,
+                                                            "price_upper_bound": null,
+                                                            "is_related_to_customer": true,
+                                                            "is_recommended_to_customer": false,
+                                                            "is_item_returnable": false,
+                                                            "is_item_cancellable": false,
+                                                            "will_seller_pickup_return": false,
+                                                            "is_available_on_cod": false,
+                                                            "item_return_window": null,
+                                                            "time_taken_to_ship_item": null,
+                                                            "measure_unit": "unit",
+                                                            "measure_value": "7",
+                                                            "maximum_available_from_provider": null,
+                                                            "maximum_items_per_order": null,
+                                                            "availability": {
+                                                                "time_available": [
+                                                                    {
+                                                                        "time_from": null,
+                                                                        "time_to": null
+                                                                    }
+                                                                ],
+                                                                "days_available": []
+                                                            },
+                                                            "primary_tag": "non-veg",
+                                                            "is_default": false,
+                                                            "customization_categories": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "ondc_id": "0pVXf4",
+                            "name": "100% Wheat Thin Crust",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "0",
+                            "max_price": "0",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": "unit",
+                            "measure_value": "1",
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": false,
+                            "customization_categories": [
+                                {
+                                    "ondc_id": "yLhFRv",
+                                    "name": "Size (any 1 option) *",
+                                    "short_description": null,
+                                    "long_description": null,
+                                    "thumbnails": [],
+                                    "category_type": "custom_group",
+                                    "availability": {
+                                        "time_available": [
+                                            {
+                                                "time_from": null,
+                                                "time_to": null
+                                            }
+                                        ],
+                                        "days_available": []
+                                    },
+                                    "category_min_value": "1",
+                                    "category_max_value": "1",
+                                    "is_text_engraving_available": true,
+                                    "customizations": [
+                                        {
+                                            "ondc_id": "lfHgm3",
+                                            "name": "Regular",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "4500",
+                                            "max_price": "4500",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "1",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": [
+                                                {
+                                                    "ondc_id": "JapEnK",
+                                                    "name": "Toppings (up to 2 options)",
+                                                    "short_description": null,
+                                                    "long_description": null,
+                                                    "thumbnails": [],
+                                                    "category_type": "custom_group",
+                                                    "availability": {
+                                                        "time_available": [
+                                                            {
+                                                                "time_from": null,
+                                                                "time_to": null
+                                                            }
+                                                        ],
+                                                        "days_available": []
+                                                    },
+                                                    "category_min_value": "0",
+                                                    "category_max_value": "2",
+                                                    "is_text_engraving_available": true,
+                                                    "customizations": [
+                                                        {
+                                                            "ondc_id": "jftbxQ",
+                                                            "name": "Grilled Mushrooms",
+                                                            "logo": null,
+                                                            "short_descritpion": null,
+                                                            "long_description": null,
+                                                            "thumbnails": [],
+                                                            "is_item_enabled": false,
+                                                            "ondc_last_updated_at": null,
+                                                            "price_currency": "INR",
+                                                            "price": "3500",
+                                                            "max_price": "3500",
+                                                            "price_lower_bound": null,
+                                                            "price_upper_bound": null,
+                                                            "is_related_to_customer": true,
+                                                            "is_recommended_to_customer": false,
+                                                            "is_item_returnable": false,
+                                                            "is_item_cancellable": false,
+                                                            "will_seller_pickup_return": false,
+                                                            "is_available_on_cod": false,
+                                                            "item_return_window": null,
+                                                            "time_taken_to_ship_item": null,
+                                                            "measure_unit": "unit",
+                                                            "measure_value": "1",
+                                                            "maximum_available_from_provider": null,
+                                                            "maximum_items_per_order": null,
+                                                            "availability": {
+                                                                "time_available": [
+                                                                    {
+                                                                        "time_from": null,
+                                                                        "time_to": null
+                                                                    }
+                                                                ],
+                                                                "days_available": []
+                                                            },
+                                                            "primary_tag": "veg",
+                                                            "is_default": false,
+                                                            "customization_categories": []
+                                                        },
+                                                        {
+                                                            "ondc_id": "nIf12u",
+                                                            "name": "Fresh Tomato",
+                                                            "logo": null,
+                                                            "short_descritpion": null,
+                                                            "long_description": null,
+                                                            "thumbnails": [],
+                                                            "is_item_enabled": false,
+                                                            "ondc_last_updated_at": null,
+                                                            "price_currency": "INR",
+                                                            "price": "3500",
+                                                            "max_price": "3500",
+                                                            "price_lower_bound": null,
+                                                            "price_upper_bound": null,
+                                                            "is_related_to_customer": true,
+                                                            "is_recommended_to_customer": false,
+                                                            "is_item_returnable": false,
+                                                            "is_item_cancellable": false,
+                                                            "will_seller_pickup_return": false,
+                                                            "is_available_on_cod": false,
+                                                            "item_return_window": null,
+                                                            "time_taken_to_ship_item": null,
+                                                            "measure_unit": "unit",
+                                                            "measure_value": "1",
+                                                            "maximum_available_from_provider": null,
+                                                            "maximum_items_per_order": null,
+                                                            "availability": {
+                                                                "time_available": [
+                                                                    {
+                                                                        "time_from": null,
+                                                                        "time_to": null
+                                                                    }
+                                                                ],
+                                                                "days_available": []
+                                                            },
+                                                            "primary_tag": "veg",
+                                                            "is_default": false,
+                                                            "customization_categories": []
+                                                        },
+                                                        {
+                                                            "ondc_id": "QZL2xM",
+                                                            "name": "Pepper Barbeque Chicken",
+                                                            "logo": null,
+                                                            "short_descritpion": null,
+                                                            "long_description": null,
+                                                            "thumbnails": [],
+                                                            "is_item_enabled": false,
+                                                            "ondc_last_updated_at": null,
+                                                            "price_currency": "INR",
+                                                            "price": "5000",
+                                                            "max_price": "5000",
+                                                            "price_lower_bound": null,
+                                                            "price_upper_bound": null,
+                                                            "is_related_to_customer": true,
+                                                            "is_recommended_to_customer": false,
+                                                            "is_item_returnable": false,
+                                                            "is_item_cancellable": false,
+                                                            "will_seller_pickup_return": false,
+                                                            "is_available_on_cod": false,
+                                                            "item_return_window": null,
+                                                            "time_taken_to_ship_item": null,
+                                                            "measure_unit": "unit",
+                                                            "measure_value": "5",
+                                                            "maximum_available_from_provider": null,
+                                                            "maximum_items_per_order": null,
+                                                            "availability": {
+                                                                "time_available": [
+                                                                    {
+                                                                        "time_from": null,
+                                                                        "time_to": null
+                                                                    }
+                                                                ],
+                                                                "days_available": []
+                                                            },
+                                                            "primary_tag": "non-veg",
+                                                            "is_default": false,
+                                                            "customization_categories": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "ondc_id": "dd7pKO",
+                                            "name": "Medium",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "27500",
+                                            "max_price": "27500",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "1",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": [
+                                                {
+                                                    "ondc_id": "DwBFvp",
+                                                    "name": "Toppings (up to 2 options)",
+                                                    "short_description": null,
+                                                    "long_description": null,
+                                                    "thumbnails": [],
+                                                    "category_type": "custom_group",
+                                                    "availability": {
+                                                        "time_available": [
+                                                            {
+                                                                "time_from": null,
+                                                                "time_to": null
+                                                            }
+                                                        ],
+                                                        "days_available": []
+                                                    },
+                                                    "category_min_value": "0",
+                                                    "category_max_value": "2",
+                                                    "is_text_engraving_available": true,
+                                                    "customizations": [
+                                                        {
+                                                            "ondc_id": "tEHQsR",
+                                                            "name": "Grilled Mushrooms",
+                                                            "logo": null,
+                                                            "short_descritpion": null,
+                                                            "long_description": null,
+                                                            "thumbnails": [],
+                                                            "is_item_enabled": false,
+                                                            "ondc_last_updated_at": null,
+                                                            "price_currency": "INR",
+                                                            "price": "6000",
+                                                            "max_price": "6000",
+                                                            "price_lower_bound": null,
+                                                            "price_upper_bound": null,
+                                                            "is_related_to_customer": true,
+                                                            "is_recommended_to_customer": false,
+                                                            "is_item_returnable": false,
+                                                            "is_item_cancellable": false,
+                                                            "will_seller_pickup_return": false,
+                                                            "is_available_on_cod": false,
+                                                            "item_return_window": null,
+                                                            "time_taken_to_ship_item": null,
+                                                            "measure_unit": "unit",
+                                                            "measure_value": "6",
+                                                            "maximum_available_from_provider": null,
+                                                            "maximum_items_per_order": null,
+                                                            "availability": {
+                                                                "time_available": [
+                                                                    {
+                                                                        "time_from": null,
+                                                                        "time_to": null
+                                                                    }
+                                                                ],
+                                                                "days_available": []
+                                                            },
+                                                            "primary_tag": "veg",
+                                                            "is_default": false,
+                                                            "customization_categories": []
+                                                        },
+                                                        {
+                                                            "ondc_id": "lmtfOa",
+                                                            "name": "Fresh Tomato",
+                                                            "logo": null,
+                                                            "short_descritpion": null,
+                                                            "long_description": null,
+                                                            "thumbnails": [],
+                                                            "is_item_enabled": false,
+                                                            "ondc_last_updated_at": null,
+                                                            "price_currency": "INR",
+                                                            "price": "6000",
+                                                            "max_price": "6000",
+                                                            "price_lower_bound": null,
+                                                            "price_upper_bound": null,
+                                                            "is_related_to_customer": true,
+                                                            "is_recommended_to_customer": false,
+                                                            "is_item_returnable": false,
+                                                            "is_item_cancellable": false,
+                                                            "will_seller_pickup_return": false,
+                                                            "is_available_on_cod": false,
+                                                            "item_return_window": null,
+                                                            "time_taken_to_ship_item": null,
+                                                            "measure_unit": "unit",
+                                                            "measure_value": "1",
+                                                            "maximum_available_from_provider": null,
+                                                            "maximum_items_per_order": null,
+                                                            "availability": {
+                                                                "time_available": [
+                                                                    {
+                                                                        "time_from": null,
+                                                                        "time_to": null
+                                                                    }
+                                                                ],
+                                                                "days_available": []
+                                                            },
+                                                            "primary_tag": "veg",
+                                                            "is_default": false,
+                                                            "customization_categories": []
+                                                        },
+                                                        {
+                                                            "ondc_id": "W6eEkh",
+                                                            "name": "Pepper Barbeque Chicken",
+                                                            "logo": null,
+                                                            "short_descritpion": null,
+                                                            "long_description": null,
+                                                            "thumbnails": [],
+                                                            "is_item_enabled": false,
+                                                            "ondc_last_updated_at": null,
+                                                            "price_currency": "INR",
+                                                            "price": "7500",
+                                                            "max_price": "7500",
+                                                            "price_lower_bound": null,
+                                                            "price_upper_bound": null,
+                                                            "is_related_to_customer": true,
+                                                            "is_recommended_to_customer": false,
+                                                            "is_item_returnable": false,
+                                                            "is_item_cancellable": false,
+                                                            "will_seller_pickup_return": false,
+                                                            "is_available_on_cod": false,
+                                                            "item_return_window": null,
+                                                            "time_taken_to_ship_item": null,
+                                                            "measure_unit": "unit",
+                                                            "measure_value": "7",
+                                                            "maximum_available_from_provider": null,
+                                                            "maximum_items_per_order": null,
+                                                            "availability": {
+                                                                "time_available": [
+                                                                    {
+                                                                        "time_from": null,
+                                                                        "time_to": null
+                                                                    }
+                                                                ],
+                                                                "days_available": []
+                                                            },
+                                                            "primary_tag": "non-veg",
+                                                            "is_default": false,
+                                                            "customization_categories": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ondc_id": "nFzYz2",
+                    "name": "Size (any 1 option) *",
+                    "short_description": null,
+                    "long_description": null,
+                    "thumbnails": [],
+                    "category_type": "custom_group",
+                    "availability": {
+                        "time_available": [
+                            {
+                                "time_from": null,
+                                "time_to": null
+                            }
+                        ],
+                        "days_available": []
+                    },
+                    "category_min_value": "1",
+                    "category_max_value": "1",
+                    "is_text_engraving_available": true,
+                    "customizations": [
+                        {
+                            "ondc_id": "FT6Akm",
+                            "name": "Regular",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "0",
+                            "max_price": "0",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": "unit",
+                            "measure_value": "1",
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": false,
+                            "customization_categories": [
+                                {
+                                    "ondc_id": "JapEnK",
+                                    "name": "Toppings (up to 2 options)",
+                                    "short_description": null,
+                                    "long_description": null,
+                                    "thumbnails": [],
+                                    "category_type": "custom_group",
+                                    "availability": {
+                                        "time_available": [
+                                            {
+                                                "time_from": null,
+                                                "time_to": null
+                                            }
+                                        ],
+                                        "days_available": []
+                                    },
+                                    "category_min_value": "0",
+                                    "category_max_value": "2",
+                                    "is_text_engraving_available": true,
+                                    "customizations": [
+                                        {
+                                            "ondc_id": "jftbxQ",
+                                            "name": "Grilled Mushrooms",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "3500",
+                                            "max_price": "3500",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "1",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        },
+                                        {
+                                            "ondc_id": "nIf12u",
+                                            "name": "Fresh Tomato",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "3500",
+                                            "max_price": "3500",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "1",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        },
+                                        {
+                                            "ondc_id": "QZL2xM",
+                                            "name": "Pepper Barbeque Chicken",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "5000",
+                                            "max_price": "5000",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "5",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "non-veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "ondc_id": "dFYwtC",
+                            "name": "Large",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "45000",
+                            "max_price": "45000",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": "unit",
+                            "measure_value": "1",
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": false,
+                            "customization_categories": [
+                                {
+                                    "ondc_id": "08fZrV",
+                                    "name": "Toppings (up to 2 options)",
+                                    "short_description": null,
+                                    "long_description": null,
+                                    "thumbnails": [],
+                                    "category_type": "custom_group",
+                                    "availability": {
+                                        "time_available": [
+                                            {
+                                                "time_from": null,
+                                                "time_to": null
+                                            }
+                                        ],
+                                        "days_available": []
+                                    },
+                                    "category_min_value": "0",
+                                    "category_max_value": "2",
+                                    "is_text_engraving_available": true,
+                                    "customizations": [
+                                        {
+                                            "ondc_id": "HF7WtR",
+                                            "name": "Grilled Mushrooms ",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "8000",
+                                            "max_price": "8000",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "5",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        },
+                                        {
+                                            "ondc_id": "eocHyx",
+                                            "name": "Fresh Tomato",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "8000",
+                                            "max_price": "8000",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "10",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        },
+                                        {
+                                            "ondc_id": "94EFWd",
+                                            "name": "Pepper Barbeque Chicken",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "9500",
+                                            "max_price": "9500",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "10",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "non-veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "ondc_id": "1kSdPM",
+                            "name": "Medium",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "21000",
+                            "max_price": "21000",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": "unit",
+                            "measure_value": "1",
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": false,
+                            "customization_categories": [
+                                {
+                                    "ondc_id": "DwBFvp",
+                                    "name": "Toppings (up to 2 options)",
+                                    "short_description": null,
+                                    "long_description": null,
+                                    "thumbnails": [],
+                                    "category_type": "custom_group",
+                                    "availability": {
+                                        "time_available": [
+                                            {
+                                                "time_from": null,
+                                                "time_to": null
+                                            }
+                                        ],
+                                        "days_available": []
+                                    },
+                                    "category_min_value": "0",
+                                    "category_max_value": "2",
+                                    "is_text_engraving_available": true,
+                                    "customizations": [
+                                        {
+                                            "ondc_id": "tEHQsR",
+                                            "name": "Grilled Mushrooms",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "6000",
+                                            "max_price": "6000",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "6",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        },
+                                        {
+                                            "ondc_id": "lmtfOa",
+                                            "name": "Fresh Tomato",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "6000",
+                                            "max_price": "6000",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "1",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        },
+                                        {
+                                            "ondc_id": "W6eEkh",
+                                            "name": "Pepper Barbeque Chicken",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "7500",
+                                            "max_price": "7500",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "7",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "non-veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ondc_id": "yLhFRv",
+                    "name": "Size (any 1 option) *",
+                    "short_description": null,
+                    "long_description": null,
+                    "thumbnails": [],
+                    "category_type": "custom_group",
+                    "availability": {
+                        "time_available": [
+                            {
+                                "time_from": null,
+                                "time_to": null
+                            }
+                        ],
+                        "days_available": []
+                    },
+                    "category_min_value": "1",
+                    "category_max_value": "1",
+                    "is_text_engraving_available": true,
+                    "customizations": [
+                        {
+                            "ondc_id": "lfHgm3",
+                            "name": "Regular",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "4500",
+                            "max_price": "4500",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": "unit",
+                            "measure_value": "1",
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": false,
+                            "customization_categories": [
+                                {
+                                    "ondc_id": "JapEnK",
+                                    "name": "Toppings (up to 2 options)",
+                                    "short_description": null,
+                                    "long_description": null,
+                                    "thumbnails": [],
+                                    "category_type": "custom_group",
+                                    "availability": {
+                                        "time_available": [
+                                            {
+                                                "time_from": null,
+                                                "time_to": null
+                                            }
+                                        ],
+                                        "days_available": []
+                                    },
+                                    "category_min_value": "0",
+                                    "category_max_value": "2",
+                                    "is_text_engraving_available": true,
+                                    "customizations": [
+                                        {
+                                            "ondc_id": "jftbxQ",
+                                            "name": "Grilled Mushrooms",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "3500",
+                                            "max_price": "3500",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "1",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        },
+                                        {
+                                            "ondc_id": "nIf12u",
+                                            "name": "Fresh Tomato",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "3500",
+                                            "max_price": "3500",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "1",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        },
+                                        {
+                                            "ondc_id": "QZL2xM",
+                                            "name": "Pepper Barbeque Chicken",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "5000",
+                                            "max_price": "5000",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "5",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "non-veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "ondc_id": "dd7pKO",
+                            "name": "Medium",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "27500",
+                            "max_price": "27500",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": "unit",
+                            "measure_value": "1",
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": false,
+                            "customization_categories": [
+                                {
+                                    "ondc_id": "DwBFvp",
+                                    "name": "Toppings (up to 2 options)",
+                                    "short_description": null,
+                                    "long_description": null,
+                                    "thumbnails": [],
+                                    "category_type": "custom_group",
+                                    "availability": {
+                                        "time_available": [
+                                            {
+                                                "time_from": null,
+                                                "time_to": null
+                                            }
+                                        ],
+                                        "days_available": []
+                                    },
+                                    "category_min_value": "0",
+                                    "category_max_value": "2",
+                                    "is_text_engraving_available": true,
+                                    "customizations": [
+                                        {
+                                            "ondc_id": "tEHQsR",
+                                            "name": "Grilled Mushrooms",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "6000",
+                                            "max_price": "6000",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "6",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        },
+                                        {
+                                            "ondc_id": "lmtfOa",
+                                            "name": "Fresh Tomato",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "6000",
+                                            "max_price": "6000",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "1",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        },
+                                        {
+                                            "ondc_id": "W6eEkh",
+                                            "name": "Pepper Barbeque Chicken",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "7500",
+                                            "max_price": "7500",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "7",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "non-veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ondc_id": "JapEnK",
+                    "name": "Toppings (up to 2 options)",
+                    "short_description": null,
+                    "long_description": null,
+                    "thumbnails": [],
+                    "category_type": "custom_group",
+                    "availability": {
+                        "time_available": [
+                            {
+                                "time_from": null,
+                                "time_to": null
+                            }
+                        ],
+                        "days_available": []
+                    },
+                    "category_min_value": "0",
+                    "category_max_value": "2",
+                    "is_text_engraving_available": true,
+                    "customizations": [
+                        {
+                            "ondc_id": "jftbxQ",
+                            "name": "Grilled Mushrooms",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "3500",
+                            "max_price": "3500",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": "unit",
+                            "measure_value": "1",
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": false,
+                            "customization_categories": []
+                        },
+                        {
+                            "ondc_id": "nIf12u",
+                            "name": "Fresh Tomato",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "3500",
+                            "max_price": "3500",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": "unit",
+                            "measure_value": "1",
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": false,
+                            "customization_categories": []
+                        },
+                        {
+                            "ondc_id": "QZL2xM",
+                            "name": "Pepper Barbeque Chicken",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "5000",
+                            "max_price": "5000",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": "unit",
+                            "measure_value": "5",
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "non-veg",
+                            "is_default": false,
+                            "customization_categories": []
+                        }
+                    ]
+                },
+                {
+                    "ondc_id": "08fZrV",
+                    "name": "Toppings (up to 2 options)",
+                    "short_description": null,
+                    "long_description": null,
+                    "thumbnails": [],
+                    "category_type": "custom_group",
+                    "availability": {
+                        "time_available": [
+                            {
+                                "time_from": null,
+                                "time_to": null
+                            }
+                        ],
+                        "days_available": []
+                    },
+                    "category_min_value": "0",
+                    "category_max_value": "2",
+                    "is_text_engraving_available": true,
+                    "customizations": [
+                        {
+                            "ondc_id": "HF7WtR",
+                            "name": "Grilled Mushrooms ",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "8000",
+                            "max_price": "8000",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": "unit",
+                            "measure_value": "5",
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": false,
+                            "customization_categories": []
+                        },
+                        {
+                            "ondc_id": "eocHyx",
+                            "name": "Fresh Tomato",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "8000",
+                            "max_price": "8000",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": "unit",
+                            "measure_value": "10",
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": false,
+                            "customization_categories": []
+                        },
+                        {
+                            "ondc_id": "94EFWd",
+                            "name": "Pepper Barbeque Chicken",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "9500",
+                            "max_price": "9500",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": "unit",
+                            "measure_value": "10",
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "non-veg",
+                            "is_default": false,
+                            "customization_categories": []
+                        }
+                    ]
+                },
+                {
+                    "ondc_id": "DwBFvp",
+                    "name": "Toppings (up to 2 options)",
+                    "short_description": null,
+                    "long_description": null,
+                    "thumbnails": [],
+                    "category_type": "custom_group",
+                    "availability": {
+                        "time_available": [
+                            {
+                                "time_from": null,
+                                "time_to": null
+                            }
+                        ],
+                        "days_available": []
+                    },
+                    "category_min_value": "0",
+                    "category_max_value": "2",
+                    "is_text_engraving_available": true,
+                    "customizations": [
+                        {
+                            "ondc_id": "tEHQsR",
+                            "name": "Grilled Mushrooms",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "6000",
+                            "max_price": "6000",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": "unit",
+                            "measure_value": "6",
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": false,
+                            "customization_categories": []
+                        },
+                        {
+                            "ondc_id": "lmtfOa",
+                            "name": "Fresh Tomato",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "6000",
+                            "max_price": "6000",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": "unit",
+                            "measure_value": "1",
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": false,
+                            "customization_categories": []
+                        },
+                        {
+                            "ondc_id": "W6eEkh",
+                            "name": "Pepper Barbeque Chicken",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "7500",
+                            "max_price": "7500",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": "unit",
+                            "measure_value": "7",
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "non-veg",
+                            "is_default": false,
+                            "customization_categories": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ondc_id": "6906fc04-fcda-4a61-aacd-44bca40f2c4c",
+            "name": "Mexican Patty Sandwich",
+            "logo": "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/8d3d01d3-378b-4b02-9485-2cafec07fbfe/product_image/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__02__20130220-mushroom-spinach-sandwich-90c292c0187a4d52b189493a1bfe1901.jpg.jpeg",
+            "short_descritpion": "Mexican Patty Sandwich",
+            "long_description": "Mexican Patty Sandwich",
+            "thumbnails": [
+                "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/8d3d01d3-378b-4b02-9485-2cafec07fbfe/product_image/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__02__20130220-mushroom-spinach-sandwich-90c292c0187a4d52b189493a1bfe1901.jpg.jpeg",
+                "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/0f227de9-1d35-4d41-af27-4700d600b72e/product_image/mexican-style-club-sandwich-119832-2.jpg.jpeg",
+                "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/8992ba10-b085-4096-bc11-5978d3bb1baa/product_image/mexican-style-grilled-vegetable-sandwich-ck.jpg.jpeg",
+                "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/02f11651-66da-41d8-a4d6-4e39f27d059b/product_image/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__02__20130220-mushroom-spinach-sandwich-90c292c0187a4d52b189493a1bfe1901.jpg.jpeg"
+            ],
+            "is_item_enabled": true,
+            "ondc_last_updated_at": "2023-08-31T13:16:32Z",
+            "price_currency": "INR",
+            "price": "22900",
+            "max_price": "22900",
+            "price_lower_bound": null,
+            "price_upper_bound": null,
+            "is_related_to_customer": false,
+            "is_recommended_to_customer": false,
+            "is_item_returnable": false,
+            "is_item_cancellable": false,
+            "will_seller_pickup_return": true,
+            "is_available_on_cod": false,
+            "item_return_window": "P0D",
+            "time_taken_to_ship_item": "PT1H",
+            "measure_unit": "unit",
+            "measure_value": "1",
+            "maximum_available_from_provider": null,
+            "maximum_items_per_order": null,
+            "availability": {
+                "time_available": [
+                    {
+                        "time_from": null,
+                        "time_to": null
+                    }
+                ],
+                "days_available": []
+            },
+            "primary_tag": "veg",
+            "supported_fulfillment_type": null,
+            "submenu": null,
+            "submenu_category": null,
+            "tag_slugs": [],
+            "tags": [],
+            "avg_rating": null,
+            "review_count": null,
+            "cuisines": [],
+            "dishes": [],
+            "customization_categories": [
+                {
+                    "ondc_id": "XUSCoh",
+                    "name": "Variant",
+                    "short_description": null,
+                    "long_description": null,
+                    "thumbnails": [],
+                    "category_type": "custom_group",
+                    "availability": {
+                        "time_available": [
+                            {
+                                "time_from": null,
+                                "time_to": null
+                            }
+                        ],
+                        "days_available": []
+                    },
+                    "category_min_value": "1",
+                    "category_max_value": "1",
+                    "is_text_engraving_available": true,
+                    "customizations": [
+                        {
+                            "ondc_id": "KUtEgF",
+                            "name": "Mexican Bean Patty 15cm [6 inches]",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "0",
+                            "max_price": "0",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": "unit",
+                            "measure_value": "1",
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": false,
+                            "customization_categories": [
+                                {
+                                    "ondc_id": "SKVCyP",
+                                    "name": "Choice of bread ",
+                                    "short_description": null,
+                                    "long_description": null,
+                                    "thumbnails": [],
+                                    "category_type": "custom_group",
+                                    "availability": {
+                                        "time_available": [
+                                            {
+                                                "time_from": null,
+                                                "time_to": null
+                                            }
+                                        ],
+                                        "days_available": []
+                                    },
+                                    "category_min_value": "1",
+                                    "category_max_value": "1",
+                                    "is_text_engraving_available": true,
+                                    "customizations": [
+                                        {
+                                            "ondc_id": "qdKDuF",
+                                            "name": "Multigrain Honey Oats",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "100",
+                                            "max_price": "100",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "1",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        },
+                                        {
+                                            "ondc_id": "wJ2xcb",
+                                            "name": "Parmesan Oregano",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "100",
+                                            "max_price": "100",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "1",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "ondc_id": "01NoRy",
+                            "name": "Make Cheese Pull Mexican Patty 30cm ",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "27000",
+                            "max_price": "27000",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": "unit",
+                            "measure_value": "1",
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": false,
+                            "customization_categories": [
+                                {
+                                    "ondc_id": "SKVCyP",
+                                    "name": "Choice of bread ",
+                                    "short_description": null,
+                                    "long_description": null,
+                                    "thumbnails": [],
+                                    "category_type": "custom_group",
+                                    "availability": {
+                                        "time_available": [
+                                            {
+                                                "time_from": null,
+                                                "time_to": null
+                                            }
+                                        ],
+                                        "days_available": []
+                                    },
+                                    "category_min_value": "1",
+                                    "category_max_value": "1",
+                                    "is_text_engraving_available": true,
+                                    "customizations": [
+                                        {
+                                            "ondc_id": "qdKDuF",
+                                            "name": "Multigrain Honey Oats",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "100",
+                                            "max_price": "100",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "1",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        },
+                                        {
+                                            "ondc_id": "wJ2xcb",
+                                            "name": "Parmesan Oregano",
+                                            "logo": null,
+                                            "short_descritpion": null,
+                                            "long_description": null,
+                                            "thumbnails": [],
+                                            "is_item_enabled": false,
+                                            "ondc_last_updated_at": null,
+                                            "price_currency": "INR",
+                                            "price": "100",
+                                            "max_price": "100",
+                                            "price_lower_bound": null,
+                                            "price_upper_bound": null,
+                                            "is_related_to_customer": true,
+                                            "is_recommended_to_customer": false,
+                                            "is_item_returnable": false,
+                                            "is_item_cancellable": false,
+                                            "will_seller_pickup_return": false,
+                                            "is_available_on_cod": false,
+                                            "item_return_window": null,
+                                            "time_taken_to_ship_item": null,
+                                            "measure_unit": "unit",
+                                            "measure_value": "1",
+                                            "maximum_available_from_provider": null,
+                                            "maximum_items_per_order": null,
+                                            "availability": {
+                                                "time_available": [
+                                                    {
+                                                        "time_from": null,
+                                                        "time_to": null
+                                                    }
+                                                ],
+                                                "days_available": []
+                                            },
+                                            "primary_tag": "veg",
+                                            "is_default": false,
+                                            "customization_categories": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ondc_id": "SKVCyP",
+                    "name": "Choice of bread ",
+                    "short_description": null,
+                    "long_description": null,
+                    "thumbnails": [],
+                    "category_type": "custom_group",
+                    "availability": {
+                        "time_available": [
+                            {
+                                "time_from": null,
+                                "time_to": null
+                            }
+                        ],
+                        "days_available": []
+                    },
+                    "category_min_value": "1",
+                    "category_max_value": "1",
+                    "is_text_engraving_available": true,
+                    "customizations": [
+                        {
+                            "ondc_id": "qdKDuF",
+                            "name": "Multigrain Honey Oats",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "100",
+                            "max_price": "100",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": "unit",
+                            "measure_value": "1",
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": false,
+                            "customization_categories": []
+                        },
+                        {
+                            "ondc_id": "wJ2xcb",
+                            "name": "Parmesan Oregano",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "100",
+                            "max_price": "100",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": "unit",
+                            "measure_value": "1",
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": false,
+                            "customization_categories": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ondc_id": "38440ea7-7f07-4829-a431-11de78cd28ab",
+            "name": "Mac and Cheese Pasta",
+            "logo": "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/cff3584c-05cf-411f-9415-ad735cb61a5c/product_image/Screenshot 2023-09-04 at 2.59.00 PM.png",
+            "short_descritpion": "Mac and Cheese short ",
+            "long_description": "Mac and Cheese Long",
+            "thumbnails": [
+                "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/cff3584c-05cf-411f-9415-ad735cb61a5c/product_image/Screenshot 2023-09-04 at 2.59.00 PM.png",
+                "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/e01fc137-8dd7-4310-884c-abc1971aa43d/product_image/Screenshot 2023-09-04 at 2.58.46 PM.png",
+                "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/87b8d9ba-79be-405f-92ea-8f80fa2240c3/product_image/Screenshot 2023-09-04 at 3.00.01 PM.png"
+            ],
+            "is_item_enabled": true,
+            "ondc_last_updated_at": "2023-09-04T09:31:29Z",
+            "price_currency": "INR",
+            "price": "40000",
+            "max_price": "40000",
+            "price_lower_bound": null,
+            "price_upper_bound": null,
+            "is_related_to_customer": false,
+            "is_recommended_to_customer": false,
+            "is_item_returnable": false,
+            "is_item_cancellable": false,
+            "will_seller_pickup_return": true,
+            "is_available_on_cod": false,
+            "item_return_window": "P0D",
+            "time_taken_to_ship_item": "PT1H",
+            "measure_unit": "gram",
+            "measure_value": "250",
+            "maximum_available_from_provider": null,
+            "maximum_items_per_order": null,
+            "availability": {
+                "time_available": [
+                    {
+                        "time_from": null,
+                        "time_to": null
+                    }
+                ],
+                "days_available": []
+            },
+            "primary_tag": "veg",
+            "supported_fulfillment_type": null,
+            "submenu": null,
+            "submenu_category": null,
+            "tag_slugs": [],
+            "tags": [],
+            "avg_rating": null,
+            "review_count": null,
+            "cuisines": [],
+            "dishes": [],
+            "customization_categories": [
+                {
+                    "ondc_id": "WhJWLT",
+                    "name": "Extra details",
+                    "short_description": null,
+                    "long_description": null,
+                    "thumbnails": [],
+                    "category_type": "custom_group",
+                    "availability": {
+                        "time_available": [
+                            {
+                                "time_from": null,
+                                "time_to": null
+                            }
+                        ],
+                        "days_available": []
+                    },
+                    "category_min_value": "0",
+                    "category_max_value": "1",
+                    "is_text_engraving_available": true,
+                    "customizations": [
+                        {
+                            "ondc_id": "IpHzCk",
+                            "name": "Additional Details",
+                            "logo": null,
+                            "short_descritpion": null,
+                            "long_description": null,
+                            "thumbnails": [],
+                            "is_item_enabled": false,
+                            "ondc_last_updated_at": null,
+                            "price_currency": "INR",
+                            "price": "5000",
+                            "max_price": "5000",
+                            "price_lower_bound": null,
+                            "price_upper_bound": null,
+                            "is_related_to_customer": true,
+                            "is_recommended_to_customer": false,
+                            "is_item_returnable": false,
+                            "is_item_cancellable": false,
+                            "will_seller_pickup_return": false,
+                            "is_available_on_cod": false,
+                            "item_return_window": null,
+                            "time_taken_to_ship_item": null,
+                            "measure_unit": "unit",
+                            "measure_value": "1",
+                            "maximum_available_from_provider": null,
+                            "maximum_items_per_order": null,
+                            "availability": {
+                                "time_available": [
+                                    {
+                                        "time_from": null,
+                                        "time_to": null
+                                    }
+                                ],
+                                "days_available": []
+                            },
+                            "primary_tag": "veg",
+                            "is_default": false,
+                            "customization_categories": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "restaurant": {
+        "provider_id": "c4764ec5-093e-4389-9b93-20b7fd400c82",
+        "is_provider_enabled": true,
+        "dining_review": null,
+        "dining_review_count": null,
+        "delivery_avg_rating": null,
+        "delivery_review_count": null,
+        "ondc_last_updated_at": "2023-09-06T06:39:33Z",
+        "name": "ONDC DEV STORE",
+        "logo": "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/c7a3e871-31a3-48d4-abfc-cd8cb39a9652/logo/download (1).jpeg",
+        "short_description": null,
+        "long_description": null,
+        "cost_for_one": null,
+        "cuisines": [],
+        "thumbnails": [
+            "https://reference-buyer-app-assets.s3-ap-south-1.amazonaws.com/public-assets/c7a3e871-31a3-48d4-abfc-cd8cb39a9652/logo/download (1).jpeg"
+        ],
+        "fssai_license": null,
+        "ttl": "PT24H",
+        "minimum_order_value": null,
+        "consumer_care_name": "ONDC DEV STORE",
+        "consumer_care_email": "akshay@wemotiveforge.com",
+        "consumer_care_phone_no": "8983796135",
+        "catalog_link_last_updated_at": null,
+        "catalog_link": null,
+        "catalog_link_validity": null,
+        "fulfillments": [
+            {
+                "fulfillment_type": "",
+                "contact_phone": [
+                    "8983796135"
+                ],
+                "contact_email": "akshay@wemotiveforge.com"
+            }
+        ],
+        "location_id": "64f6fb8e42c071c0d4cdc160",
+        "is_location_enabled": false,
+        "location_last_updated_at": null,
+        "address": "Nangloi,,New Delhi,Delhi,110041",
+        "locality": null,
+        "sub_locality": null,
+        "holidays": [],
+        "latitude": "28.679076630288467",
+        "longitude": "77.06970870494843",
+        "delivery_radius_unit": "km",
+        "delivery_radius": "1",
+        "availability": {
+            "availability_for_location": [
+                {
+                    "location_start_time": {
+                        "location_start_time": "0000",
+                        "location_end_time": "2300"
+                    }
+                }
+            ],
+            "availability_for_order": [
+                {
+                    "time_available": [
+                        {
+                            "time_from": null,
+                            "time_to": null
+                        }
+                    ],
+                    "days_available": [
+                        []
+                    ]
+                }
+            ],
+            "availability_for_self_pickup": [
+                {
+                    "time_available": [
+                        {
+                            "time_from": null,
+                            "time_to": null
+                        }
+                    ],
+                    "days_available": []
+                }
+            ],
+            "availability_for_delivery": [
+                {
+                    "time_available": [
+                        {
+                            "time_from": null,
+                            "time_to": null
+                        }
+                    ],
+                    "days_available": [
+                        []
+                    ]
+                }
+            ],
+            "days_available": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ]
+        }
+    },
+    "offers": []
+}

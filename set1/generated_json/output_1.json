@@ -1,0 +1,130 @@
+{
+    "ondc": {
+        "domain": "ONDC:RET11",
+        "country": "IND",
+        "city": "std:080",
+        "action": "on_search",
+        "core_version": "1.2.0",
+        "bap_id": "buyerNP.com",
+        "bap_uri": "https://buyerNP.com/ondc",
+        "transaction_id": "T1",
+        "message_id": "M1",
+        "timestamp": "2023-06-03T08:00:30+00:00",
+        "bpp_id": "sellerNP.com",
+        "bpp_uri": "https://sellerNP.com/ondc"
+    },
+    "items": [],
+    "restaurant": {
+        "provider_id": "P1",
+        "is_provider_enabled": true,
+        "dining_review": null,
+        "dining_review_count": null,
+        "delivery_avg_rating": null,
+        "delivery_review_count": null,
+        "ondc_last_updated_at": "2023-06-03T07:00:30Z",
+        "name": "Store 1",
+        "logo": "https://sellerNP.com/images/store1.png",
+        "short_description": "Store 1",
+        "long_description": "Store 1",
+        "cost_for_one": null,
+        "cuisines": [],
+        "thumbnails": [
+            "https://sellerNP.com/images/store1.png"
+        ],
+        "fssai_license": "12345678901234",
+        "ttl": "P1D",
+        "minimum_order_value": "30000",
+        "consumer_care_name": "Ramesh",
+        "consumer_care_email": "ramesh@abc.com",
+        "consumer_care_phone_no": "18004254444",
+        "catalog_link_last_updated_at": null,
+        "catalog_link": null,
+        "catalog_link_validity": null,
+        "fulfillments": [
+            {
+                "fulfillment_type": "Delivery",
+                "contact_phone": [
+                    "9886098860"
+                ],
+                "contact_email": "abc@xyz.com"
+            },
+            {
+                "fulfillment_type": "Self-Pickup",
+                "contact_phone": [
+                    "9886098860"
+                ],
+                "contact_email": "abc@xyz.com"
+            }
+        ],
+        "location_id": "L2",
+        "is_location_enabled": true,
+        "location_last_updated_at": "2023-06-03T07:30:30.000000Z",
+        "address": "Jayanagar 4th Block,Jayanagar,Bengaluru,KA,560076",
+        "locality": "Jayanagar",
+        "sub_locality": null,
+        "holidays": [
+            "2023-8-15"
+        ],
+        "latitude": "12.967555",
+        "longitude": "77.749666",
+        "delivery_radius_unit": "km",
+        "delivery_radius": "3",
+        "availability": {
+            "availability_for_location": [
+                {
+                    "location_start_time": {
+                        "location_start_time": "1100",
+                        "location_end_time": "2100"
+                    }
+                }
+            ],
+            "availability_for_order": [
+                {
+                    "time_available": [
+                        {
+                            "time_from": null,
+                            "time_to": null
+                        }
+                    ],
+                    "days_available": [
+                        []
+                    ]
+                }
+            ],
+            "availability_for_self_pickup": [
+                {
+                    "time_available": [
+                        {
+                            "time_from": null,
+                            "time_to": null
+                        }
+                    ],
+                    "days_available": []
+                }
+            ],
+            "availability_for_delivery": [
+                {
+                    "time_available": [
+                        {
+                            "time_from": null,
+                            "time_to": null
+                        }
+                    ],
+                    "days_available": [
+                        []
+                    ]
+                }
+            ],
+            "days_available": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ]
+        }
+    },
+    "offers": []
+}
